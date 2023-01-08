@@ -1,4 +1,3 @@
-
 function createChart2(dict) {
     labels = []
     for (var i=0, size=dict.length;i<size;i++){
@@ -24,9 +23,9 @@ function createChart2(dict) {
         },
         options: {
             scales: {
-                y: {
+                yAxes: [{
                     beginAtZero: false
-                }
+                }]
             }
         }
     });
