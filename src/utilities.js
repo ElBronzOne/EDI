@@ -42,9 +42,7 @@ function earnings(data){
         return b[0]-a[0]});
     earningsList = earningsList.slice(0,5)
     return earningsList
-
 }
-
 
 apiRequest()
     .then(data => cars(data))
